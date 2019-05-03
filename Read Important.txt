@@ -1,0 +1,19 @@
+Hiii...
+
+Step 1 --> Copy admin, admin-home, show-message, show-customer folders directly into app folder.
+You will find app folder as follows FCropApp > src > app
+
+Step 2 --> Copy Contact.ts file in model folder
+You will find model as follows FCropApp > src > app > model
+
+Step 3 --> Open service.txt file you will find some functions copy it in fcrop-service.service.ts file.
+You will find model as follows FCropApp > src > app > fcrop-service.service.ts
+
+Step 4 --> Open module.txt file you will find some functions copy it in app.module.ts file.
+You will find model as follows FCropApp > src > app > app.module.ts
+
+Now you will encounter some errors in step 3 and step 4 respectively, To remove them just import all the components and modules. It will work fine.
+
+
+
+It Works.. __/|\__  :-)

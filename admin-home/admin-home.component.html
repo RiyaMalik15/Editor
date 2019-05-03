@@ -1,0 +1,19 @@
+<nav class="navbar navbar-inverse" *ngIf="service.status">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><b><font size="5">FCROP</font></b></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#" routerLink='allCustomers'><b><font size="4">Customers Enrolled</font></b></a></li>
+      <li><a href="#" routerLink='allMessages'><b><font size="4">Queries Received</font></b></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" (click)="logout()" ><span class="glyphicon glyphicon-user"></span><b><font size="4">Logout</font></b></a></li>
+    </ul>
+
+  </div>
+</nav>
+
+
+  <!-- My service navbar end -->  
+<router-outlet></router-outlet>

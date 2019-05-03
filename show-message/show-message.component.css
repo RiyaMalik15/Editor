@@ -1,0 +1,11 @@
+.tab{
+
+    background-color: white;
+    padding: 50px;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td{
+    background-color:gainsboro;
+
+ }

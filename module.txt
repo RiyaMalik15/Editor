@@ -1,0 +1,19 @@
+
+  {
+    path:'admin',
+    component:AdminloginComponent
+  },
+  {
+    path:'adminHome/:username',
+    component: AdminHomeComponent,
+    children:[
+      {
+        path:'allCustomers',
+        component:ShowCustomerComponent
+      },
+      {
+        path:'allMessages',
+        component:ShowMessageComponent
+      }
+    ]
+  },

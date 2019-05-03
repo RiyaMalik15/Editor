@@ -1,0 +1,42 @@
+<div class="parent">
+    <div class="background"></div>
+    <div class="foreground">
+<br>
+<br><br>
+<br>
+
+<div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <strong>Admin Login</strong>
+                    </div>
+                    <div class="panel-body">
+                        <form method="POST" [formGroup]="adminForm" class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="user" class="col-sm-3 control-label">
+                                    Username:</label>
+                                <div class="col-sm-9">
+                                    <input type="text" formControlName="username" class="form-control" id="user" placeholder="Username" required="">
+                                   
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputPassword3" class="col-sm-3 control-label">
+                                    Password</label>
+                                <div class="col-sm-9">
+                                    <input type="password" formControlName="password" class="form-control" id="inputPassword3" placeholder="Password" required="">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="form-group last">
+                            <div class="col-sm-offset-3 col-sm-9">
+                                <button type="submit" (click)="loginAdmin()" [disabled]="adminForm.invalid" class="btn btn-primary" value="Log in">Log In </button>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>

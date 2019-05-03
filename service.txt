@@ -1,0 +1,21 @@
+
+  loginAdmin(data):Promise<any>{
+    return this.http.post('http://localhost:8765/FCrop_BackEnd/FCrop/loginAdmin',data).
+    toPromise().
+    then(res=>res.json()).
+    catch(this.errorHandler)
+  }
+
+  getallCustomersbyAdmin(){
+    return this.http.get('http://localhost:8765/FCrop_BackEnd/FCrop/getallCustomers').
+    toPromise().
+    then(res=>res.json() as Customer[]).
+    catch(this.errorHandler)
+  }
+
+  getallMessagesbyAdmin(){
+    return this.http.get('http://localhost:8765/FCrop_BackEnd/FCrop/getallMessages').
+    toPromise().
+    then(res=>res.json() as Contact[]).
+    catch(this.errorHandler)
+  }

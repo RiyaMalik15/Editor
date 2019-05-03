@@ -1,0 +1,19 @@
+.navbar {
+    color: #070907;
+    background-color: black;
+}
+.dropdown-menu{
+    background-color: rgb(34, 124, 71);
+}
+.hello{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+.fa fa-search{
+   height: 100px;
+}
+.btn btn-primary{
+    padding-top: 10px;
+}

@@ -1,0 +1,24 @@
+
+<div class="col-md-10 col-md-offset-1 tab">
+  <h2 style="text-align: center">Queries Received</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Query ID</th>
+      <th>Phone Number</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Message</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let query of contact">
+      <td>{{cust.MId}}</td>
+      <td>{{cust.phoneNumber}}</td>
+      <td>{{cust.name}}</td>
+      <td>{{cust.lname}}</td>
+      <td>{{cust.message}}</td>
+   </tr>
+  </tbody>
+</table>
+</div>
